@@ -1,0 +1,10 @@
+Objects/
+Listings/
+*.uvoptx
+*.uvguix.*
+*.bak
+**/RTE/Device/
+**/RTE/Board_Support/
+__pycache__/
+/rtx5-k1986ve1qi/cmsis-5.4.0/
+/rtx5-k1986ve1qi/RTX_CM0.lib
