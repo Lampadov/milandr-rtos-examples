@@ -30,7 +30,7 @@
 
 При переносе примера в репозиторий поправлен инкремент предделителя при расчёте ARR. Три функции мониторинга тика оставлены заглушками, как в статье.
 
-Автор статей — **Илья Лампадов**. Ядро FreeRTOS распространяется по [MIT](LICENSES/FreeRTOS-MIT.txt). К файлам конфигурации RTX с уведомлением Arm относится [Apache-2.0](LICENSES/Apache-2.0.txt).
+Автор статей для портала Миландр (Milandr) — **Илья Лампадов**. Ядро FreeRTOS распространяется по [MIT](LICENSES/FreeRTOS-MIT.txt). К файлам конфигурации RTX с уведомлением Arm относится [Apache-2.0](LICENSES/Apache-2.0.txt).
 
 [freertos]: https://support.milandr.ru/base/primenenie/programmirovanie-32-razryadnykh-mk/osobennosti-primeneniya-know-how/49937/
 [rtx]: https://support.milandr.ru/base/primenenie/programmirovanie-32-razryadnykh-mk/osobennosti-primeneniya-know-how/24210/
