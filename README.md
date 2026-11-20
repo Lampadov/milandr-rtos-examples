@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | [FreeRTOS на К1986ВЕ1QI](freertos-k1986ve1qi/) | К1986ВЕ1QI | Одна задача переключает светодиоды с задержкой 100 тиков |
 | [FreeRTOS на К1986ВК01GI](freertos-k1986vk01gi/) | К1986ВК01GI | Три задачи независимо переключают красный, зелёный и синий каналы |
-| [RTX5 с OS Tick API](rtx5-k1986ve1qi/) | К1986ВЕ1QI | Светодиод переключается каждые 500 тиков, источник тика — TIMER1 |
+| [RTX5 с OS Tick API](rtx5-k1986ve1qi/) | К1986ВЕ1QI | Светодиод переключается каждые 500 тиков от TIMER1 |
 
 ## FreeRTOS
 
@@ -30,7 +30,7 @@
 
 При переносе примера в репозиторий поправлен инкремент предделителя при расчёте ARR. Три функции мониторинга тика оставлены заглушками, как в статье.
 
-Автор статей для портала Миландр (Milandr) — **Илья Лампадов**. Ядро FreeRTOS распространяется по [MIT](LICENSES/FreeRTOS-MIT.txt). К файлам конфигурации RTX с уведомлением Arm относится [Apache-2.0](LICENSES/Apache-2.0.txt).
+Статьи для портала Миландр (Milandr) написал **Илья Лампадов**. Ядро FreeRTOS распространяется по [MIT](LICENSES/FreeRTOS-MIT.txt). К файлам конфигурации RTX с уведомлением Arm относится [Apache-2.0](LICENSES/Apache-2.0.txt).
 
 [freertos]: https://support.milandr.ru/base/primenenie/programmirovanie-32-razryadnykh-mk/osobennosti-primeneniya-know-how/49937/
 [rtx]: https://support.milandr.ru/base/primenenie/programmirovanie-32-razryadnykh-mk/osobennosti-primeneniya-know-how/24210/
